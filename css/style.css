@@ -16,7 +16,7 @@ body{
 
  /*HEADER*/
 .header{
-    background-color: #1b3039;
+    background-color: #1a6443;
     display: flex;
     justify-content: space-between; /*espacio entre elementos*/
     align-items: center;
@@ -30,6 +30,19 @@ body{
     cursor: pointer; /*manito*/
     color:bisque;
 }
+.header .logo :hover{
+    transform: scale(1.1); /*esto hace que al pasar
+    con el raton arriba de los link estos
+    se agranden un poquito*/
+    }   
+
+.header .logo:hover{
+    color:rgb(0, 92, 128); /*esto hace que al pasar
+    el raton cambie de color los link */
+}
+    
+
+
 
 .header .nav li{
     list-style: none; /*saca la linea de abajo*/
